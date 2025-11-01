@@ -15,7 +15,7 @@ stages
             {
                         steps
                         {
-                                    echo ‘This is Clean Stage'
+                                    echo 'This is Clean Stage'
                         }
                         }
 stage('Clean Success Stage')
@@ -29,14 +29,14 @@ stage('Clean Success Stage')
             {
                         steps
                         {
-                                    echo ‘This is Clean Success Stage’
+                                    echo 'This is Clean Success Stage'
                         }
             }                      
             stage('Build & Install Stage')
             {
                         steps
                         {
-                                    echo ‘This is Build Stage’
+                                    echo 'This is Build Stage'
                         }
             }                      
            
